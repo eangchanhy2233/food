@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>KhmerEats - Authentic Khmer Cuisine Delivered</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f45925",
+                        "background-light": "#f8f6f5",
+                        "background-dark": "#221410",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#181311] dark:text-background-light">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-[#e6dedb]/50 dark:border-[#3a2a26] px-4 sm:px-10 py-3 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center gap-4 text-[#181311] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_330)">
+<path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+</g>
+<defs>
+<clippath id="clip0_6_330">
+<rect fill="white" height="48" width="48"></rect>
+</clippath>
+</defs>
+</svg>
+</div>
+<h2 class="text-[#181311] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">KhmerEats</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#181311] dark:text-white text-sm font-medium leading-normal" href="#">Home</a>
+<a class="text-[#181311] dark:text-white text-sm font-medium leading-normal" href="#">Restaurants</a>
+<a class="text-[#181311] dark:text-white text-sm font-medium leading-normal" href="#">For Partners</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Login / Sign Up</span>
+</button>
+</div>
+<div class="md:hidden">
+<button class="p-2 text-[#181311] dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<!-- Hero Section -->
+<section class="w-full @container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="A vibrant, delicious-looking spread of Khmer food dishes like Amok and Beef Lok Lak" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB36IhgOC7Iiclhmt5B_aHZoy2kC1U9xiFRwR4eazhKRU6a8LDnaqRD6qEr9u8ULs7fzDonJWrjgInaWGt_sAQU5PuCKeWU1QN7AI-noxGws4xnGv5NBTInqnXTlIzEk4n0R3ZfkOG8mLbBiJQGzPnyVu9LPtZY-qDyz8W4Jhd8TmPdBLKxuqTvdIKRR-LkxvZLN3OZNuQlnk2-ybQOmp4hHOVPh5WjmZKuCBTfCHaEQBpAgIWEhFyVt4oYCo1BaAmPN7tFThILLoFw");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">Authentic Khmer Cuisine, Delivered to Your Doorstep</h1>
+<h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">Discover the rich flavors of Cambodia from the comfort of your home. Fast, fresh, and reliable.</h2>
+</div>
+<label class="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+<div class="text-[#8a6b60] flex border border-[#e6dedb] dark:border-[#3a2a26] bg-white dark:bg-[#3a2a26] items-center justify-center pl-[15px] rounded-l-lg border-r-0">
+<span class="material-symbols-outlined text-lg">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#181311] dark:text-white focus:outline-0 focus:ring-0 border border-[#e6dedb] dark:border-[#3a2a26] bg-white dark:bg-background-dark focus:border-primary h-full placeholder:text-[#8a6b60] dark:placeholder:text-[#857671] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal" placeholder="Enter your delivery address" value=""/>
+<div class="flex items-center justify-center rounded-r-lg border-l-0 border border-[#e6dedb] dark:border-[#3a2a26] bg-white dark:bg-background-dark pr-[7px]">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
+<span class="truncate">Find Food</span>
+</button>
+</div>
+</div>
+</label>
+</div>
+</div>
+</section>
+<!-- Feature Section -->
+<section class="flex flex-col gap-10 px-4 py-16 sm:px-10 @container">
+<div class="flex flex-col gap-4 text-center items-center">
+<h2 class="text-[#181311] dark:text-white tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">How It Works</h2>
+<p class="text-[#181311] dark:text-white/80 text-base font-normal leading-normal max-w-[720px]">Getting your favorite Khmer food is as easy as 1, 2, 3. Follow these simple steps to start your culinary journey.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-4 p-0">
+<div class="flex flex-1 gap-4 rounded-xl border border-[#e6dedb] dark:border-[#3a2a26] bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/20 rounded-full p-3 mb-2">
+<span class="material-symbols-outlined text-3xl">search</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Search &amp; Discover</h3>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Browse through a wide variety of local restaurants and dishes.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-[#e6dedb] dark:border-[#3a2a26] bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/20 rounded-full p-3 mb-2">
+<span class="material-symbols-outlined text-3xl">credit_card</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Order &amp; Pay</h3>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Easily place your order and complete the payment securely online.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-4 rounded-xl border border-[#e6dedb] dark:border-[#3a2a26] bg-white dark:bg-background-dark p-6 flex-col text-center items-center">
+<div class="text-primary bg-primary/20 rounded-full p-3 mb-2">
+<span class="material-symbols-outlined text-3xl">local_shipping</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="text-[#181311] dark:text-white text-base font-bold leading-tight">Track &amp; Enjoy</h3>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Follow your delivery in real-time from the kitchen to your door.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Restaurants -->
+<section class="px-4 sm:px-10 pb-16">
+<h2 class="text-[#181311] dark:text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Khmer Kitchens</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A platter of Cambodian BBQ skewers" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDveSlTfVI_ppZynuWV0xznO2nL3duVCLns5isCDC07e9p2zXjAPqaPoSauriS602c05EIuoWCxqvONfzaKg9k5mdxMPROhOWKM-lkQMNU9rq3WM5akq7iDUPqm7l61EKFaiFryAqGMu3NC9ND19okqLhhkJ0755DiP2myq_KQdu143k7wwf0HB85NRcsIF_8HnMlFh_DgRAVpLgNDYVdXsja773qanRvRYYrjjacRaapfx07lDkYSCsgIlOTgL_4o4c2hvTvXFd_dw");'></div>
+<div>
+<p class="text-[#181311] dark:text-white text-base font-bold leading-normal">Angkorian Delights</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Cambodian BBQ</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">⭐️ 4.8 (25m)</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A steaming bowl of Phnom Penh Noodle Soup" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD1CG1fY9UyFxNLs9PMdAC-YEy-eAeMyIIjs6vqgFLBeWWlLCOvGJwdLw2b9A1ag6IWncVoRiVHk1ndilVK5y9Q-OcAEocVy-UymSj4kh5wrcEyYY_oMmjzuyddA4IOB_UANUgeOQHjyeGQlTEPaBoae-ZQtJ3ytYbJ_4ixxO7duvM_wVTpuTNAU2PVAov4ibU3oOpj5GCqD-Dk0nB3tYBI2h9O3DL-Qm9iZ-U2x3jPASeM-D-CGrU31w_mBr30s2-_Kgksr6NKZi4O");'></div>
+<div>
+<p class="text-[#181311] dark:text-white text-base font-bold leading-normal">Phnom Penh Noodle House</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Noodle Soup</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">⭐️ 4.9 (15m)</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Close up of grilled meat skewers at Siem Reap BBQ" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPe6DfHGMCU1NhKbSIJZ9-2Cahe8e4wvcqE-Op0ltPmUYSmfPcYYXc_BEznJPq4EJgpcZUa8j-Dsgv8che-ucUro2qYWhDKMjWVuIEaAG7yakY7sgimRzq_7VPqFt6JVMwtvZ9vM8o6EpYDgs2VY2CQVPK0bn5KP8_-Qo_z2w36VMszvYMunowzinWS8uTxJi9zicOw8Fu9rVvR0Kzj4Qb-dIKfXZyvxQWoTzlw_89ogBoVA4yv2LS10qwegMByepdrwkQRO0ayAhj");'></div>
+<div>
+<p class="text-[#181311] dark:text-white text-base font-bold leading-normal">Siem Reap BBQ</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Grill &amp; Skewers</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">⭐️ 4.7 (30m)</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="An elegant dish of Royal Khmer Cuisine, beautifully plated" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD9h8CoqAgk9lzUhQ9gSH1K0sPsBDG8ujrBA587ksxWiro5b-QAFmWm0EqXYglF4fcst8V7T0M066PZhmi6f4Iz40yIGXgsDW5jwGWKjZp8X-MteCiHYsem_k09wJzeK7GP89EHOyhzxqhzsM3GubU7eWOyvnTVh3KGFeYDTtxQ17bUk_2_MwAI3zR8gIBju0Z302aMyJCF1Pwo3Kbd8GlnOdjlUTBPZgFELvKfn3DTRtO4sFA5_eaWDTSh6OOFXKReSYtL1wRbUH_t");'></div>
+<div>
+<p class="text-[#181311] dark:text-white text-base font-bold leading-normal">The Royal Plate</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">Royal Khmer Cuisine</p>
+<p class="text-[#8a6b60] dark:text-white/60 text-sm font-normal leading-normal">⭐️ 4.8 (45m)</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Partner CTA Section -->
+<section class="px-4 py-16 sm:px-10">
+<div class="flex flex-col md:flex-row items-center justify-between gap-8 rounded-xl bg-primary/20 dark:bg-primary/10 p-8 md:p-12 text-center md:text-left">
+<div class="flex flex-col gap-2">
+<h2 class="text-3xl font-bold text-[#181311] dark:text-white">Grow Your Business With Us</h2>
+<p class="text-[#181311]/80 dark:text-white/80 max-w-xl">Join the KhmerEats family and reach a wider audience of hungry customers. We provide the tools and support to help your restaurant thrive in the digital age.</p>
+</div>
+<button class="flex-shrink-0 min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Become a Partner</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-light dark:bg-[#181311] border-t border-[#e6dedb] dark:border-[#3a2a26]">
+<div class="max-w-screen-xl mx-auto px-4 sm:px-10 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-4 text-[#181311] dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_330_footer)"><path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path></g>
+<defs><clippath id="clip0_6_330_footer"><rect fill="white" height="48" width="48"></rect></clippath></defs>
+</svg>
+</div>
+<h2 class="text-[#181311] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">KhmerEats</h2>
+</div>
+<p class="text-sm text-[#8a6b60] dark:text-white/60">Your gateway to the authentic flavors of Cambodia, delivered right to your door.</p>
+</div>
+<div>
+<h3 class="font-bold text-[#181311] dark:text-white mb-4">Sitemap</h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">About Us</a></li>
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">Contact</a></li>
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">FAQ</a></li>
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">Restaurants</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-[#181311] dark:text-white mb-4">Legal</h3>
+<ul class="space-y-2 text-sm">
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">Terms of Service</a></li>
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">Privacy Policy</a></li>
+<li><a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="#">Cookie Policy</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-bold text-[#181311] dark:text-white mb-4">Follow Us</h3>
+<div class="flex space-x-4">
+<!-- Social Icons would go here -->
+ <a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="https://www.facebook.com/share/16RVrdDkgs/?mibextid=wwXIfr">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-[#8a6b60] dark:text-white/60 hover:text-primary" href="https://www.instagram.com/foodpandakh/">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.023.047 1.351.058 3.807.058h.468c2.456 0 2.784-.011 3.807-.058.975-.045 1.504-.207 1.857-.344.467-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.047-1.023.058-1.351.058-3.807v-.468c0-2.456-.011-2.784-.058-3.807-.045-.975-.207-1.504-.344-1.857a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 1.802a3.333 3.333 0 110 6.666 3.333 3.333 0 010-6.666zm5.338-3.205a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-8 border-t border-[#e6dedb] dark:border-[#3a2a26] pt-8 text-center text-sm text-[#8a6b60] dark:text-white/60">
+<p>© 2025 KhmerEats. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
